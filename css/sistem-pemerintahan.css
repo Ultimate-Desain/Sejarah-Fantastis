@@ -1,0 +1,23 @@
+body{
+  background-image: url('../assets/img/bg-sistem-pemerintahan.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.line{
+  height: 3px;
+  width: 113px;
+  background-color: #0B1D26;
+}
+
+.header{
+  min-height: 50vh;
+  vertical-align: middle !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header p{
+  padding: 5px 100px 5px 100px;
+}
