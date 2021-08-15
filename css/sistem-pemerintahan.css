@@ -12,7 +12,7 @@ body{
 
 .header{
   min-height: 85vh;
-  padding-bottom: 25vh;
+  padding-bottom: 35vh;
   vertical-align: middle !important;
   display: flex;
   flex-direction: column;
@@ -21,6 +21,7 @@ body{
 
 .header p{
   padding: 5px 100px 5px 100px;
+  margin: 10px auto 20px auto;
 }
 
 /* timeline */
@@ -40,7 +41,7 @@ html {
   align-items: center;
   justify-content: center;
   padding: 100px 0;
-  background-color: #111;
+  background-color: #E8E4E1;
 }
 .timeline {
   width: 80%;
@@ -79,6 +80,7 @@ html {
   font-weight: 300;
   margin-bottom: 10px;
   letter-spacing: 2px;
+  color: black;
 }
 @media only screen and (min-width: 768px) {
   .timeline::before {
@@ -99,13 +101,13 @@ html {
   .timeline ul li:nth-child(odd) {
     float: left;
     clear: right;
-    transform: translateX(-45px); //sesuaikan
+    transform: translateX(-45px); /* sesuaikan */
     border-radius: 20px 0px 20px 20px;
   }
   .timeline ul li:nth-child(even) {
     float: right;
     clear: left;
-    transform: translateX(15px); //sesuaikan
+    transform: translateX(15px); /* sesuaikan */
     border-radius: 0px 20px 20px 20px;
   }
   .timeline ul li::before {
