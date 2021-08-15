@@ -81,7 +81,7 @@ html {
   letter-spacing: 2px;
 }
 @media only screen and (min-width: 768px) {
-  .timeline:before {
+  .timeline::before {
     content: "";
     position: absolute;
     top: 0;
@@ -99,13 +99,13 @@ html {
   .timeline ul li:nth-child(odd) {
     float: left;
     clear: right;
-    transform: translateX(-30px);
+    transform: translateX(-45px); //sesuaikan
     border-radius: 20px 0px 20px 20px;
   }
   .timeline ul li:nth-child(even) {
     float: right;
     clear: left;
-    transform: translateX(30px);
+    transform: translateX(15px); //sesuaikan
     border-radius: 0px 20px 20px 20px;
   }
   .timeline ul li::before {
