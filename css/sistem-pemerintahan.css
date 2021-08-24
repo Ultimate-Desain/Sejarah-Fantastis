@@ -62,6 +62,11 @@ html {
   margin-bottom: 20px;
   font-size: 18px;
 }
+.foto {
+  display: flex !important;
+  justify-content: center !important;
+  background-color: transparent !important;
+}
 .timeline ul li:last-child {
   margin-bottom: 0;
 }
@@ -85,6 +90,9 @@ html {
   color: black;
 }
 @media only screen and (min-width: 768px) {
+  .timeline ul .row {
+    margin-bottom: 70px;
+  }
   .timeline::before {
     content: "";
     position: absolute;
@@ -98,7 +106,7 @@ html {
   .timeline ul li {
     width: 50%;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: auto;
   }
   .timeline ul li:nth-child(odd) {
     float: left;
