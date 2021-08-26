@@ -67,6 +67,12 @@ html {
   justify-content: center !important;
   background-color: transparent !important;
 }
+
+#batch-foto{
+  justify-content: center !important;
+  background-color: transparent !important;
+}
+
 .timeline ul li:last-child {
   margin-bottom: 0;
 }
