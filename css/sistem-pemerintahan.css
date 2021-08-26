@@ -65,7 +65,7 @@ html {
   list-style: none;
 }
 .timeline ul li {
-  padding: 20px;
+  padding: 10px 20px 20px 20px;
   background-color: #F6F3F0;
   color: #000000;
   border-radius: 10px;
@@ -101,11 +101,9 @@ html {
   font-family: 'Raleway', sans-serif;
 }
 .timeline-content .date {
-  font-size: 12px;
   font-weight: 300;
   margin-bottom: 10px;
-  letter-spacing: 2px;
-  color: black;
+  letter-spacing: 1px;
 }
 @media only screen and (min-width: 768px) {
   .timeline ul .row {
@@ -152,10 +150,6 @@ html {
   .timeline ul li:nth-child(even)::before {
     transform: translate(-50%, -50%);
     left: -30px;
-  }
-  .timeline-content .date {
-    position: absolute;
-    top: -30px;
   }
   .timeline ul li:hover::before {
     background-color: aqua;
