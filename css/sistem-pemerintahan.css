@@ -4,6 +4,16 @@ body{
   background-size: 100% 100%;
 }
 
+h1{
+  font-family: 'Otomanopee One', sans-serif;
+}
+
+a{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
 .line{
   height: 3px;
   width: 113px;
@@ -66,6 +76,7 @@ html {
   display: flex !important;
   justify-content: center !important;
   background-color: transparent !important;
+  padding-top: 0px !important;
 }
 
 #batch-foto{
@@ -87,6 +98,7 @@ html {
   font-size: 16px;
   line-height: 25px;
   font-weight: 300;
+  font-family: 'Raleway', sans-serif;
 }
 .timeline-content .date {
   font-size: 12px;
@@ -117,12 +129,12 @@ html {
   .timeline ul li:nth-child(odd) {
     float: left;
     transform: translateX(-45px); /* sesuaikan */
-    border-radius: 20px 0px 20px 20px;
+    border-radius: 10px;
   }
   .timeline ul li:nth-child(even) {
     float: right;
     transform: translateX(15px); /* sesuaikan */
-    border-radius: 0px 20px 20px 20px;
+    border-radius: 10px;
   }
   .timeline ul li::before {
     content: "";
