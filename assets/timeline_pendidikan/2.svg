@@ -1,0 +1,18 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1920" height="1080">
+<rect width="1920" height="1080" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0)">
+<circle cx="1088.5" cy="198.5" r="331.5" fill="url(#paint0_radial)"/>
+<path d="M1176.66 229.121C1169.33 231.349 1161.55 232.547 1153.5 232.547C1109.59 232.547 1074 196.953 1074 153.047C1074 141.256 1076.57 130.063 1081.17 120C1066.33 133.275 1057 152.569 1057 174.047C1057 214.088 1089.46 246.547 1129.5 246.547C1147.5 246.547 1163.98 239.987 1176.66 229.121Z" fill="#FFBFC4"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1088.5 198.5) rotate(90) scale(331.5)">
+<stop stop-color="#99586D"/>
+<stop offset="0.0625" stop-color="#9C596D" stop-opacity="0.75"/>
+<stop offset="0.359375" stop-color="#A05A6C" stop-opacity="0.445833"/>
+<stop offset="0.609375" stop-color="#A35A6B" stop-opacity="0.206606"/>
+<stop offset="1" stop-color="#A55B6B" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
