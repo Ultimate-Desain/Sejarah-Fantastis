@@ -21,7 +21,7 @@ a{
 }
 
 .header{
-  min-height: 85vh;
+  min-height: 90vh;
   padding-bottom: 35vh;
   vertical-align: middle !important;
   display: flex;
@@ -51,7 +51,7 @@ html {
   align-items: center;
   justify-content: center;
   padding: 100px 0;
-  background-color: #2E2443;
+  background-color: #2A2342;
 }
 .timeline {
   width: 90%;

@@ -21,7 +21,7 @@ body{
   }
   
   .header{
-    min-height: 85vh;
+    min-height: 90vh;
     padding-bottom: 35vh;
     vertical-align: middle !important;
     display: flex;
@@ -51,7 +51,7 @@ body{
     align-items: center;
     justify-content: center;
     padding: 100px 0;
-    background-color: #E8E4E1;
+    background-color: #332544;
   }
   .timeline {
     width: 90%;

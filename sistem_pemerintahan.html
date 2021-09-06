@@ -27,6 +27,26 @@
   <link href="css/nucleo-icons.css" rel="stylesheet">
   <link href="css/nucleo-svg.css" rel="stylesheet">
   <link href="css/sistem-pemerintahan.css" rel="stylesheet">
+  
+	<style>
+		section {
+			position: absolute;
+			width: 100%;
+			height: 100vh;
+			padding: 100px;
+			left: 0;
+			top: 0;
+			z-index: -100;
+		}
+		section img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	</style>
 </head>
 
 <body>
@@ -85,6 +105,17 @@
       </div>
     </div>
   </div>
+
+  <section>
+		<img id="parallax-1" src="assets/timeline_pemerintahan/1.svg" alt="">
+		<img id="parallax-2" src="assets/timeline_pemerintahan/2.svg" alt="">
+		<img id="parallax-3" src="assets/timeline_pemerintahan/3.svg" alt="">
+		<img id="parallax-4" src="assets/timeline_pemerintahan/4.svg" alt="">
+		<img id="parallax-5" src="assets/timeline_pemerintahan/5.svg" alt="">
+		<img id="parallax-6" src="assets/timeline_pemerintahan/6.svg" alt="">
+		<img id="parallax-7" src="assets/timeline_pemerintahan/7.svg" alt="">
+		<img id="parallax-8" src="assets/timeline_pemerintahan/8.svg" alt="">
+	</section>
 
   <!-- timeline -->
   <class class="container-timeline" style="flex-direction: column;">
@@ -351,6 +382,28 @@
   <script defer src="assets/icon/fontawesome-free-5.15.4-web/js/brands.js"></script>
   <script defer src="assets/icon/fontawesome-free-5.15.4-web/js/solid.js"></script>
   <script defer src="assets/icon/fontawesome-free-5.15.4-web/js/fontawesome.js"></script>
+
+	<script>
+		let parallax_1 = document.getElementById('parallax-1');
+		let parallax_2 = document.getElementById('parallax-2');
+		let parallax_3 = document.getElementById('parallax-3');
+		let parallax_4 = document.getElementById('parallax-4');
+		let parallax_5 = document.getElementById('parallax-5');
+		let parallax_6 = document.getElementById('parallax-6');
+		let parallax_7 = document.getElementById('parallax-7');
+		let parallax_8 = document.getElementById('parallax-8');
+
+		window.addEventListener('scroll', function() {
+			let value = window.scrollY;
+			parallax_1.style.top = value * 0.5 + 'px';
+			parallax_2.style.top = value * 0.35 + 'px';
+			parallax_3.style.top = value * 0.3 + 'px';
+			parallax_4.style.top = value * 0.25 + 'px';
+			parallax_5.style.top = value * 0.2 + 'px';
+			parallax_6.style.top = value * 0.15 + 'px';
+			parallax_7.style.top = value * 0.1 + 'px';
+		});
+	</script>
 </body>
 
 </html>
