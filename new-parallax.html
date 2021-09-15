@@ -12,33 +12,70 @@
       }
       .section { 
         position: relative;
-        height: 100vh;
+        height: 1080px;
         display: flex;
         align-items: center;
         justify-content: center;
         color: white;
         text-shadow: 0 0 5px #000;
       }
-      .parallax::after {
+      .section::after {
         content: " ";
         position: absolute;
         top: 0;
         right: 0;
         bottom: 0;
         left: 0;
-        transform: translateZ(-0.5px);
         background-size: 100%;
         z-index: -1;
       }
-      .static {
-        background: red;
-      }
       .bg1::after {
-        background-image: url('https://placekitten.com/g/900/700');
+        background-image: url('assets/timeline_pendidikan/1.svg');
+        background-repeat: no-repeat;
+        transform: translateZ(-1px);
+        width: 120%;
+        height: 120%;
+        left: -500px;
       }
 
       .bg2::after {
-        background-image: url('https://placekitten.com/g/800/600');
+        top: -1080px;
+        background-repeat: no-repeat;
+        background-image: url('assets/timeline_pendidikan/2.svg');
+        transform: translateZ(-1px);
+        width: 120%;
+        height: 120%;
+      }
+
+      .bg3::after {
+        top: -2160px;
+        background-repeat: no-repeat;
+        background-image: url('assets/timeline_pendidikan/3.svg');
+        transform: translateZ(-0.45px);
+        width: 120%;
+        height: 120%;
+      }
+      .bg4::after {
+        top: -3240px;
+        background-repeat: no-repeat;
+        background-image: url('assets/timeline_pendidikan/4.svg');
+        transform: translateZ(-0.30px);
+        width: 120%;
+        height: 120%;
+      }
+      .bg5::after {
+        top: -4320px;
+        background-repeat: no-repeat;
+        background-image: url('assets/timeline_pendidikan/5.svg');
+        transform: translateZ(-0.15px);
+        width: 120%;
+        height: 120%;
+      }
+      .bg6::after {
+        top: -5400px;
+        background-repeat: no-repeat;
+        background-image: url('assets/timeline_pendidikan/6.svg');
+        transform: translateZ(0) scale(1);
       }
     </style>
     <title>CSS Scrolling Parallax</title>
@@ -46,14 +83,23 @@
   <body>
     <main class="wrapper">
       <section class="section parallax bg1">
-         <h1>Cute Kitten</h1>
-      </section>
-      <section class="section static">
-         <h1>Boring</h1>
+        <h1>Cute Kitten</h1>
       </section>
       <section class="section parallax bg2">
-         <h1>Fluffy Kitten</h1>
+        <h1>Fluffy Kitten</h1>
       </section>
-   </main>
+      <section class="section parallax bg3">
+        <h1>Fluffy Kitten</h1>
+      </section>
+      <section class="section parallax bg4">
+        <h1>Fluffy Kitten</h1>
+      </section>
+      <section class="section parallax bg5">
+        <h1>Fluffy Kitten</h1>
+      </section>
+      <section class="section parallax bg6">
+        <h1>Fluffy Kitten</h1>
+      </section>
+    </main>
   </body>
 </html>
