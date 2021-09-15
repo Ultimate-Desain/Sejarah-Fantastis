@@ -1,0 +1,28 @@
+.head{
+    text-align: center;
+}
+
+.kotak{
+    width: 40%;
+    height: auto;
+    max-width: 1000px;
+    position: relative;
+    padding: 20px;
+    background-color: #F6F3F0;
+    color: #000000;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.kotak p{
+    width: 80%;
+}
+
+.image{
+    position: absolute;
+    width: 715px;
+    height: 431px;
+    left: 750px;
+}
