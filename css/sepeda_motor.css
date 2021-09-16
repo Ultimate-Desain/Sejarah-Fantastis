@@ -34,6 +34,42 @@ a{
 	margin: 10px auto 20px auto;
 }
 
+.segi-enam img {
+    position: absolute;
+    z-index: 0;
+  }
+  
+  .segi-enam img:nth-child(1){
+    top: 100vh;
+    left: 10vw;
+  }
+  
+  .segi-enam img:nth-child(2){
+    top: 150vh;
+    left: 80vw;
+  }
+  
+  .segi-enam img:nth-child(3){
+    top: 220vh;
+    left: 29vw;
+  }
+  .segi-enam img:nth-child(4){
+    top: 360vh;
+    left: 10vw;
+  }
+  .segi-enam img:nth-child(5){
+    top: 500vh;
+    left: 35vw;
+  }
+  .segi-enam img:nth-child(6){
+    top: 290vh;
+    left: 80vw;
+  }
+  .segi-enam img:nth-child(7){
+    top: 450vh;
+    left: 80vw;
+  }
+
 /* timeline */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
 * {
