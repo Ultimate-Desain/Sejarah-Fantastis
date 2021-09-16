@@ -86,11 +86,11 @@ body{
     left: 55vw;
   }
   .segi-enam img:nth-child(12){
-    top: 970vh;
+    top: 950vh;
     left: 15vw;
   }
   .segi-enam img:nth-child(13){
-    top: 1050vh;
+    top: 400vh;
     left: 65vw;
   }
 
@@ -141,24 +141,24 @@ body{
 
   .flip-card {
     background-color: transparent;
-    width: 300px;
+    width: 350px;
     height: 200px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    
   }
 
   .flip-card-inner {
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100%;
-    
     transition: transform 1.5s;
     transform-style: preserve-3d;
+    
   }
 
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
     transition: 1.5s;
-    
   }
 
   .flip-card-front, .flip-card-back {
@@ -167,18 +167,26 @@ body{
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    Display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 10px;
   }
 
   .flip-card-back {
     background-color: #E8E4E1;
     font-family: 'Raleway', sans-serif;
     font-size: medium;
-    /* text-align: center; */
-    /* padding: 10px; */
-    
+    padding: 10px;
     transform: rotateY(180deg);
   }
   
+  .flip-card-back p:hover{
+    color: #6B3249;
+  }
+
   #batch-foto{
     justify-content: center !important;
     background-color: transparent !important;
