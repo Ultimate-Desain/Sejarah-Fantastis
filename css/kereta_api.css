@@ -186,11 +186,6 @@ body{
   .flip-card-back p:hover{
     color: #6B3249;
   }
-
-  #batch-foto{
-    justify-content: center !important;
-    background-color: transparent !important;
-  }
   
   .timeline ul li:last-child {
     margin-bottom: 0;
